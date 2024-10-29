@@ -1,0 +1,54 @@
+catalog {
+  &__wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+  }
+
+  &__card {
+    background-color: darkgray;
+    aspect-ratio: 4/3;
+    border-radius: 30px;
+&:hover{
+   div{
+backdrop-filter: blur(20px);
+   }
+}
+    &:nth-child(1) {
+      background-image: url(https://framerusercontent.com/images/UbS7rWmAwWxjtwM7oaWwRuGo.jpg?scale-down-to=1024);
+    }
+    &:nth-child(1) {
+      background-image: url(https://framerusercontent.com/images/QVKFKT3dyGxloXfzzpurVKNMM6M.jpg?scale-down-to=1024);
+    }
+    &:nth-child(1) {
+      background-image: url(https://framerusercontent.com/images/AX9PukosNfGVcfXw3YapiYpl9g.jpg?scale-down-to=1024);
+    }
+    &:nth-child(1) {
+      background-image: url(https://framerusercontent.com/images/BAXywubxN8sAhfJg3AgGgFI.jpg?scale-down-to=1024);
+    }
+    &:nth-child(1) {
+      background-image: url(https://framerusercontent.com/images/3WALBX7nnuG7p85CLjlVmWPDHw.jpg?scale-down-to=1024);
+    }
+    &:nth-child(1) {
+      background-image: url(https://framerusercontent.com/images/aH1eUgCIIIrbJF7TUlaKAehoI.jpg?scale-down-to=1024);
+    }
+    div {
+      
+      height: 100%;
+      overflow: hidden;
+    min-height: 500px;  
+      border-radius: 30px;
+      padding: 25px;
+      color: white;
+      display: flex;
+      justify-content: space-between;
+
+      button {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        border: none;
+      }
+    }
+  }
+}
